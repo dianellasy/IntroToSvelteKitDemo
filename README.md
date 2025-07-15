@@ -1,0 +1,2 @@
+# ACM CSUF Open Source Intro to SvelteKit Demo
+𐙚 [Hot Open Source Summer 2025: Sample Portfolio](https://github.com/dianellasy/IntroToSvelteKitDemo/tree/main/hot_open_source_summer_2025/sample_portfolio)
