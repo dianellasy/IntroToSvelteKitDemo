@@ -2,6 +2,8 @@
     import ProjectCard from '$lib/ProjectCard.svelte';
 </script>
 
+
+
 <style>
     h1 {
         text-align: center;
@@ -35,6 +37,7 @@
         transform: translateY(-5px);
     }
 </style>
+
 
 
 <h1>Projects</h1>
