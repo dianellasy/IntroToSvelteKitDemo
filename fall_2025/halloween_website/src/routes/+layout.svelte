@@ -40,6 +40,11 @@
     background: rgba(0,0,0,0.5);
   }
 
+  header h1 {
+    font-size: 5rem;
+    color: #ff7518;
+  }
+
   button {
     display: block;
     margin: 1rem auto;
