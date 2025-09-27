@@ -2,7 +2,7 @@
   let choice;
   const options = [
     { msg: 'happy halloween! 🧡, dianella' },
-    { msg: 'evans message' },
+    { msg: 'Boo! 👻' },
     { msg: 'Stay spooky! 🕷️' },
     { msg: 'Trick or treat yourself! 🍬' },
     { msg: 'Beware of the full moon! 🌕' }

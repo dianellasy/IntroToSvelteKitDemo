@@ -25,7 +25,7 @@
 <header>
   <div class="sound-icon" on:click={toggleMusic}>
     {#if isPlaying === null}
-      🎵
+      MUSIC
     {:else if isPlaying}
       🔊
     {:else}

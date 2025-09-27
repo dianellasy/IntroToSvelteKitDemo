@@ -16,4 +16,8 @@
     padding: 2rem;
     text-align: center;
   }
+
+  h2.creepy {
+    font-size: 3rem; /* Adjust size as needed */
+  }
 </style>
