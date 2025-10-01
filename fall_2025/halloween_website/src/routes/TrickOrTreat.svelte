@@ -2,10 +2,11 @@
   let choice;
   const options = [
     { msg: 'happy halloween! 🧡, dianella' },
-    { msg: 'Boo! 👻' },
-    { msg: 'Stay spooky! 🕷️' },
-    { msg: 'Trick or treat yourself! 🍬' },
-    { msg: 'Beware of the full moon! 🌕' }
+    { msg: 'christmas came early this year -evan🥪' },
+    { msg: '12 more weeks, shes defrosting 🎄, anderson' },
+    { msg: 'happiest time of the year, emily' },
+    { msg: 'Guys Im scared - Sid' },
+    { msg: 'I know where you live - Josh' }
   ];
   let output = '';
   let audio: HTMLAudioElement | undefined;
