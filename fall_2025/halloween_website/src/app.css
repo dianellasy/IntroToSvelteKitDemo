@@ -1,0 +1,29 @@
+:root {
+  --bg: black;
+  --fg: #ff6600;
+  --accent: #6e5494;
+  --font-display: 'Creepster', cursive;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: sans-serif;
+}
+
+h1, h2, .creepy {
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 0 var(--accent);
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+[data-reduced-motion] *,
+[data-reduced-motion] *::before,
+[data-reduced-motion] *::after {
+  animation: none !important;
+  transition: none !important;
+}
