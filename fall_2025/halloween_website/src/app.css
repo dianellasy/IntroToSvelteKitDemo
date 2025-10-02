@@ -1,26 +1,36 @@
+
+/* Define CSS variables for theme colors and font */
 :root {
-  --bg: black;
-  --fg: #ff6600;
-  --accent: #6e5494;
-  --font-display: 'Creepster', cursive;
+  --bg: black; /* Background color */
+  --fg: #ff6600; /* Foreground (text) color */
+  --accent: #6e5494; /* Accent color for highlights */
+  --font-display: 'Creepster', cursive; /* Display font */
 }
 
+
+/* Style for the body element */
 body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--fg);
-  font-family: sans-serif;
+  margin: 0; /* Remove default margin */
+  background: var(--bg); /* Use background variable */
+  color: var(--fg); /* Use foreground variable */
+  font-family: sans-serif; /* Default font */
 }
 
+
+/* Style for headings and elements with the 'creepy' class */
 h1, h2, .creepy {
-  font-family: var(--font-display);
-  letter-spacing: 0.05em;
-  text-shadow: 2px 2px 0 var(--accent);
+  font-family: var(--font-display); /* Use display font */
+  letter-spacing: 0.05em; /* Slightly space out letters */
+  text-shadow: 2px 2px 0 var(--accent); /* Add spooky shadow */
 }
 
+
+/* Style for links */
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+
+/* Disable animations and transitions for users who prefer reduced motion */
 [data-reduced-motion] *,
 [data-reduced-motion] *::before,
 [data-reduced-motion] *::after {
